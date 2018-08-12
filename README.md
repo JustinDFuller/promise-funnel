@@ -7,7 +7,7 @@ NPM Installation
 npm install promise-funnel --save
 ```
 
-Yard Installation
+Yarn Installation
 ```
 yarn add promise-funnel
 ```
