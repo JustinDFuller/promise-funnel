@@ -1,5 +1,17 @@
 # Funnel
 
+## Installation
+
+NPM Installation
+```
+npm install promise-funnel --save
+```
+
+Yard Installation
+```
+yarn add promise-funnel
+```
+
 ## What
 Funnel is a tiny library (4kb after babel) that will wrap your functions. Funnel provides a cork method that will temporarily stop any wrapped functions from being invoked. It also provides an uncork method that will invoke any methods that became queued up while the funnel was corked.
 
@@ -22,7 +34,7 @@ By _funneling_ requests you can wait for some event to finish, all of your funct
 
 ```js
 import mysql from 'mysql'
-import createFunnel from 'funnel'
+import createFunnel from 'promise-funnel'
 
 const funnel = createFunnel()
 funnel.cork()

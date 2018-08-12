@@ -1,6 +1,6 @@
 {
   "name": "promise-funnel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -18,8 +18,8 @@
     "authentication",
     "queue"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Justin Fuller <justindanielfuller@gmail.com>",
+  "license": "AGPL-3.0",
   "devDependencies": {
     "ava": "^0.25.0",
     "babel-cli": "^6.26.0",
