@@ -2,15 +2,30 @@
   "name": "promise-funnel",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "ava --verbose"
+    "test": "ava --verbose",
+    "build": "rm -rf dist && mkdir dist && babel index.js --out-file dist/index.js --source-maps",
+    "prepublish": "npm run build"
   },
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "promise",
+    "async",
+    "funnel",
+    "function",
+    "helper",
+    "authentication",
+    "queue"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "ava": "^0.25.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.4.3",
+    "babel-preset-stage-0": "^6.24.1",
     "standard": "^11.0.1"
   }
 }

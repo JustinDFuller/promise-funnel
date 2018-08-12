@@ -1,7 +1,7 @@
 # Funnel
 
 ## What
-Funnel is a tiny library that will wrap your functions. Funnel provides a cork method that will temporarily stop any wrapped functions from being invoked. It also provides an uncork method that will invoke any methods that became queued up while the funnel was corked.
+Funnel is a tiny library (4kb after babel) that will wrap your functions. Funnel provides a cork method that will temporarily stop any wrapped functions from being invoked. It also provides an uncork method that will invoke any methods that became queued up while the funnel was corked.
 
 ## Why
 Sometimes you will have functions, for example an http request function, that needs to be paused and then resumed later. 
