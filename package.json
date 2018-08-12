@@ -1,0 +1,16 @@
+{
+  "name": "promise-funnel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "standard": "^11.0.1"
+  }
+}
