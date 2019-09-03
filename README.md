@@ -1,5 +1,7 @@
 # Funnel
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JustinDFuller/promise-funnel.svg)](https://greenkeeper.io/)
+
 ## Installation
 
 NPM Installation
