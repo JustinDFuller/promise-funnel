@@ -21,11 +21,11 @@
   "author": "Justin Fuller <justindanielfuller@gmail.com>",
   "license": "AGPL-3.0",
   "devDependencies": {
-    "ava": "^0.25.0",
+    "ava": "^2.3.0",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-minify": "^0.4.3",
+    "babel-preset-minify": "^0.5.1",
     "babel-preset-stage-0": "^6.24.1",
-    "standard": "^11.0.1"
+    "standard": "^14.1.0"
   }
 }
